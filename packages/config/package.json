@@ -1,5 +1,10 @@
 {
   "name": "@hermetika/config",
   "private": true,
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "build": "echo Config build pending",
+    "lint": "echo Config lint pending",
+    "typecheck": "echo Config typecheck pending"
+  }
 }

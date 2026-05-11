@@ -10,6 +10,7 @@
   "scripts": {
     "dev:web": "npm --workspace @hermetika/web run dev",
     "dev:api": "npm --workspace @hermetika/api run dev",
+    "dev:android": "npm --workspace @hermetika/android run dev",
     "build": "npm run build --workspaces",
     "lint": "npm run lint --workspaces",
     "typecheck": "npm run typecheck --workspaces"
