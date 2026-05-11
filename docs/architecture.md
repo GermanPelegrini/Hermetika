@@ -12,6 +12,12 @@ Hermetika is structured as a centralized loyalty ecosystem with isolated busines
 - customer wallet and rewards experience
 - onboarding, auth, and settings
 
+### Android
+
+- customer wallet and rewards tracking
+- purchase progress, redemptions, and notifications
+- mobile-first flows for in-store usage
+
 ### API
 
 - authentication and authorization
@@ -54,5 +60,11 @@ Tracks immutable point movements and purchase-derived reward events.
 
 - TypeScript across the stack
 - workspace-based monorepo
-- separate `web` and `api` apps
+- separate `web`, `android`, and `api` apps
 - shared domain package for loyalty primitives
+
+## Client strategy
+
+- `apps/web` focuses on the business dashboard and shared customer entry points
+- `apps/android` is the first dedicated mobile client and should stay aligned with the same domain contracts used by the API
+- backend APIs should stay client-agnostic so future iOS support can reuse the same application layer

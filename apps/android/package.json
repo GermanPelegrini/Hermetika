@@ -1,0 +1,11 @@
+{
+  "name": "@hermetika/android",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo Android app bootstrap pending",
+    "build": "echo Android build pending",
+    "lint": "echo Android lint pending",
+    "typecheck": "echo Android typecheck pending"
+  }
+}
