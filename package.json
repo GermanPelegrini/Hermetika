@@ -1,0 +1,20 @@
+{
+  "name": "hermetika",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for the Hermetika loyalty platform.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @hermetika/web run dev",
+    "dev:api": "npm --workspace @hermetika/api run dev",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

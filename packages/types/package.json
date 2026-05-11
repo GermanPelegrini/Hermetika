@@ -1,0 +1,12 @@
+{
+  "name": "@hermetika/types",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "echo Types build pending",
+    "lint": "echo Types lint pending",
+    "typecheck": "echo Types typecheck pending"
+  }
+}

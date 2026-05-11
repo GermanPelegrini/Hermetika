@@ -1,0 +1,11 @@
+{
+  "name": "@hermetika/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo API bootstrap pending",
+    "build": "echo API build pending",
+    "lint": "echo API lint pending",
+    "typecheck": "echo API typecheck pending"
+  }
+}
