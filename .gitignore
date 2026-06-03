@@ -8,7 +8,5 @@ build/
 .env.*.local
 coverage/
 *.log
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+apps/api/data/
 .DS_Store

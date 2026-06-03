@@ -1,11 +1,8 @@
 export const apiModules = [
   "auth",
+  "users",
   "businesses",
-  "customers",
   "loyalty-programs",
-  "points-ledger",
   "purchases",
-  "rewards",
-  "redemptions",
-  "analytics"
+  "qr-tokens"
 ] as const;

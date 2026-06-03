@@ -2,10 +2,23 @@
   "name": "@hermetika/web",
   "private": true,
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
-    "dev": "echo Web app bootstrap pending",
-    "build": "echo Web build pending",
-    "lint": "echo Web lint pending",
-    "typecheck": "echo Web typecheck pending"
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@hermetika/config": "*",
+    "@hermetika/types": "*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
   }
 }

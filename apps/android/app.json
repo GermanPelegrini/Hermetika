@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Hermetika",
+    "slug": "hermetika",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.hermetika.app"
+    }
+  }
+}
